@@ -446,7 +446,7 @@ footer .gogaLink::after {
     background-color: #0275d8;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     cursor: pointer;
     font-family: "IBM Plex Mono", monospace; }
@@ -476,8 +476,9 @@ footer .gogaLink::after {
   .home_page .home_page_title {
     font-size: 1.2em; }
   .home_page .home_page_elem1 {
-    height: 45vh;
+    height: 55vh;
     width: 80%;
+   
    
   
    }
