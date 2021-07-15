@@ -586,15 +586,30 @@ footer .gogaLink::after {
     height: 100vh;
     z-index: 7;
     background-color: whitesmoke;
+    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     cursor: pointer;
     font-family: "IBM Plex Mono", monospace; }
+
+    .gallery_page .gallery_page_slider {
+      height: 65vh;
+      width: 85%;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+
+/* 
   .gallery_page .gallery_page_slider .gallery_page_slider_images {
-    height: 80%;
+    height: 90%;
     width: 100%; }
+
+   */
+
+
   .gallery_page .gallery_page_slider .gallery_page_slider_item1 {
     width: 0;
     height: 0;
