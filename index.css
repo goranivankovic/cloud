@@ -476,16 +476,23 @@ footer .gogaLink::after {
   .home_page .home_page_title {
     font-size: 1.2em; }
   .home_page .home_page_elem1 {
-    height: 70vh;
-    width: 80%; }
+    height: 45vh;
+    width: 80%;
+   
+  
+   }
   .home_page .home_page_elem2 {
-    height: 60vh;
+    height: 45vh;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     padding: 10px;
-    font-size: 0.8em; }
+    font-size: 0.75em; 
+   
+    
+   
+  }
   .menu_burger_pos .menu_burger_item {
     width: 100%;
     height: 5px;
