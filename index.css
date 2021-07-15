@@ -322,10 +322,13 @@ html {
   height: 65vh;
   width: 40%; }
 
-.contact_page .contact_page_map iframe {
+
+.contact_page .contact_page_map img {
   height: 100%;
   width: 100%;
-  border-radius: 12px; }
+  border-radius: 12px; 
+  background-color: transparent;
+}
 
 .contact_page .contact_page_form {
   height: 65vh;
@@ -400,8 +403,10 @@ footer .footer_elem1 {
   align-items: center;
   padding: 5px;
   margin-bottom: 10px;
-  border: 2px solid #f0ad4e;
-  border-radius: 20px; }
+  /* border: 2px solid #f0ad4e; */
+  border-radius: 20px; 
+ 
+}
 
 footer .footer_elem2 {
   height: 40vh;
@@ -412,7 +417,7 @@ footer .footer_elem2 {
   align-items: center;
   padding: 5px;
   margin-bottom: 10px;
-  border: 2px solid #0275d8;
+  /* border: 2px solid #0275d8; */
   border-radius: 20px; }
 
 footer .footer_elem1 span,
@@ -643,7 +648,10 @@ footer .gogaLink::after {
     font-family: 'Raleway', sans-serif; }
   .contact_page .contact_page_map {
     width: 80%;
-    height: 55vh; }
+    height: 50vh; }
+    .contact_page .contact_page_map img{
+      width: 100%;
+      height: 100%; }
   .contact_page .contact_page_form form {
     width: 100%;
     height: 55vh; }
